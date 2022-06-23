@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F194A7F22D37778006967CF /* reciclarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F194A7E22D37778006967CF /* reciclarViewController.swift */; };
+		3F2572F822CF807000908407 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2572F722CF807000908407 /* MapViewController.swift */; };
+		3F54B28122D383AC005714F8 /* coletaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F54B28022D383AC005714F8 /* coletaDAO.swift */; };
+		3FB0043122CE2C06009FC23B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0043022CE2C06009FC23B /* AppDelegate.swift */; };
+		3FB0043322CE2C06009FC23B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0043222CE2C06009FC23B /* ViewController.swift */; };
+		3FB0043622CE2C06009FC23B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0043422CE2C06009FC23B /* Main.storyboard */; };
+		3FB0043822CE2C06009FC23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0043722CE2C06009FC23B /* Assets.xcassets */; };
+		3FB0043B22CE2C06009FC23B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0043922CE2C06009FC23B /* LaunchScreen.storyboard */; };
+		3FB0044622CE2C06009FC23B /* ColetaAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0044522CE2C06009FC23B /* ColetaAiTests.swift */; };
+		3FB0045122CE2C06009FC23B /* ColetaAiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0045022CE2C06009FC23B /* ColetaAiUITests.swift */; };
+		3FB0045F22CE3D5A009FC23B /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0045E22CE3D5A009FC23B /* CadastroViewController.swift */; };
+		3FB0046122CE3D71009FC23B /* EntrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0046022CE3D71009FC23B /* EntrarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB0044222CE2C06009FC23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB0042522CE2C06009FC23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB0042C22CE2C06009FC23B;
+			remoteInfo = ColetaAi;
+		};
+		3FB0044D22CE2C06009FC23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB0042522CE2C06009FC23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB0042C22CE2C06009FC23B;
+			remoteInfo = ColetaAi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F194A7E22D37778006967CF /* reciclarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reciclarViewController.swift; sourceTree = "<group>"; };
+		3F2572F722CF807000908407 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3F54B28022D383AC005714F8 /* coletaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = coletaDAO.swift; sourceTree = "<group>"; };
+		3FB0042D22CE2C06009FC23B /* ColetaAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColetaAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB0043022CE2C06009FC23B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB0043222CE2C06009FC23B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB0043522CE2C06009FC23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB0043722CE2C06009FC23B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB0043A22CE2C06009FC23B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB0043C22CE2C06009FC23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB0044122CE2C06009FC23B /* ColetaAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColetaAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB0044522CE2C06009FC23B /* ColetaAiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColetaAiTests.swift; sourceTree = "<group>"; };
+		3FB0044722CE2C06009FC23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB0044C22CE2C06009FC23B /* ColetaAiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColetaAiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB0045022CE2C06009FC23B /* ColetaAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColetaAiUITests.swift; sourceTree = "<group>"; };
+		3FB0045222CE2C06009FC23B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB0045E22CE3D5A009FC23B /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		3FB0046022CE3D71009FC23B /* EntrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB0042A22CE2C06009FC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB0043E22CE2C06009FC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB0044922CE2C06009FC23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB0042422CE2C06009FC23B = {
+			isa = PBXGroup;
+			children = (
+				3FB0042F22CE2C06009FC23B /* ColetaAi */,
+				3FB0044422CE2C06009FC23B /* ColetaAiTests */,
+				3FB0044F22CE2C06009FC23B /* ColetaAiUITests */,
+				3FB0042E22CE2C06009FC23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB0042E22CE2C06009FC23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0042D22CE2C06009FC23B /* ColetaAi.app */,
+				3FB0044122CE2C06009FC23B /* ColetaAiTests.xctest */,
+				3FB0044C22CE2C06009FC23B /* ColetaAiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB0042F22CE2C06009FC23B /* ColetaAi */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0043022CE2C06009FC23B /* AppDelegate.swift */,
+				3FB0043222CE2C06009FC23B /* ViewController.swift */,
+				3FB0045E22CE3D5A009FC23B /* CadastroViewController.swift */,
+				3FB0046022CE3D71009FC23B /* EntrarViewController.swift */,
+				3F2572F722CF807000908407 /* MapViewController.swift */,
+				3F194A7E22D37778006967CF /* reciclarViewController.swift */,
+				3FB0043422CE2C06009FC23B /* Main.storyboard */,
+				3F54B28022D383AC005714F8 /* coletaDAO.swift */,
+				3FB0043722CE2C06009FC23B /* Assets.xcassets */,
+				3FB0043922CE2C06009FC23B /* LaunchScreen.storyboard */,
+				3FB0043C22CE2C06009FC23B /* Info.plist */,
+			);
+			path = ColetaAi;
+			sourceTree = "<group>";
+		};
+		3FB0044422CE2C06009FC23B /* ColetaAiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0044522CE2C06009FC23B /* ColetaAiTests.swift */,
+				3FB0044722CE2C06009FC23B /* Info.plist */,
+			);
+			path = ColetaAiTests;
+			sourceTree = "<group>";
+		};
+		3FB0044F22CE2C06009FC23B /* ColetaAiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0045022CE2C06009FC23B /* ColetaAiUITests.swift */,
+				3FB0045222CE2C06009FC23B /* Info.plist */,
+			);
+			path = ColetaAiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB0042C22CE2C06009FC23B /* ColetaAi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB0045522CE2C06009FC23B /* Build configuration list for PBXNativeTarget "ColetaAi" */;
+			buildPhases = (
+				3FB0042922CE2C06009FC23B /* Sources */,
+				3FB0042A22CE2C06009FC23B /* Frameworks */,
+				3FB0042B22CE2C06009FC23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColetaAi;
+			productName = ColetaAi;
+			productReference = 3FB0042D22CE2C06009FC23B /* ColetaAi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB0044022CE2C06009FC23B /* ColetaAiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB0045822CE2C06009FC23B /* Build configuration list for PBXNativeTarget "ColetaAiTests" */;
+			buildPhases = (
+				3FB0043D22CE2C06009FC23B /* Sources */,
+				3FB0043E22CE2C06009FC23B /* Frameworks */,
+				3FB0043F22CE2C06009FC23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB0044322CE2C06009FC23B /* PBXTargetDependency */,
+			);
+			name = ColetaAiTests;
+			productName = ColetaAiTests;
+			productReference = 3FB0044122CE2C06009FC23B /* ColetaAiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB0044B22CE2C06009FC23B /* ColetaAiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB0045B22CE2C06009FC23B /* Build configuration list for PBXNativeTarget "ColetaAiUITests" */;
+			buildPhases = (
+				3FB0044822CE2C06009FC23B /* Sources */,
+				3FB0044922CE2C06009FC23B /* Frameworks */,
+				3FB0044A22CE2C06009FC23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB0044E22CE2C06009FC23B /* PBXTargetDependency */,
+			);
+			name = ColetaAiUITests;
+			productName = ColetaAiUITests;
+			productReference = 3FB0044C22CE2C06009FC23B /* ColetaAiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB0042522CE2C06009FC23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = student;
+				TargetAttributes = {
+					3FB0042C22CE2C06009FC23B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H64LYCM5TW;
+						ProvisioningStyle = Automatic;
+					};
+					3FB0044022CE2C06009FC23B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB0042C22CE2C06009FC23B;
+					};
+					3FB0044B22CE2C06009FC23B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB0042C22CE2C06009FC23B;
+					};
+				};
+			};
+			buildConfigurationList = 3FB0042822CE2C06009FC23B /* Build configuration list for PBXProject "ColetaAi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB0042422CE2C06009FC23B;
+			productRefGroup = 3FB0042E22CE2C06009FC23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB0042C22CE2C06009FC23B /* ColetaAi */,
+				3FB0044022CE2C06009FC23B /* ColetaAiTests */,
+				3FB0044B22CE2C06009FC23B /* ColetaAiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB0042B22CE2C06009FC23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB0043B22CE2C06009FC23B /* LaunchScreen.storyboard in Resources */,
+				3FB0043822CE2C06009FC23B /* Assets.xcassets in Resources */,
+				3FB0043622CE2C06009FC23B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB0043F22CE2C06009FC23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB0044A22CE2C06009FC23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB0042922CE2C06009FC23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB0046122CE3D71009FC23B /* EntrarViewController.swift in Sources */,
+				3F194A7F22D37778006967CF /* reciclarViewController.swift in Sources */,
+				3F54B28122D383AC005714F8 /* coletaDAO.swift in Sources */,
+				3FB0043322CE2C06009FC23B /* ViewController.swift in Sources */,
+				3FB0045F22CE3D5A009FC23B /* CadastroViewController.swift in Sources */,
+				3F2572F822CF807000908407 /* MapViewController.swift in Sources */,
+				3FB0043122CE2C06009FC23B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB0043D22CE2C06009FC23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB0044622CE2C06009FC23B /* ColetaAiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB0044822CE2C06009FC23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB0045122CE2C06009FC23B /* ColetaAiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB0044322CE2C06009FC23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB0042C22CE2C06009FC23B /* ColetaAi */;
+			targetProxy = 3FB0044222CE2C06009FC23B /* PBXContainerItemProxy */;
+		};
+		3FB0044E22CE2C06009FC23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB0042C22CE2C06009FC23B /* ColetaAi */;
+			targetProxy = 3FB0044D22CE2C06009FC23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB0043422CE2C06009FC23B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB0043522CE2C06009FC23B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB0043922CE2C06009FC23B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB0043A22CE2C06009FC23B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB0045322CE2C06009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB0045422CE2C06009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB0045622CE2C06009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H64LYCM5TW;
+				INFOPLIST_FILE = ColetaAi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ColetaAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FB0045722CE2C06009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H64LYCM5TW;
+				INFOPLIST_FILE = ColetaAi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ColetaAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3FB0045922CE2C06009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColetaAiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ColetaAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColetaAi.app/ColetaAi";
+			};
+			name = Debug;
+		};
+		3FB0045A22CE2C06009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColetaAiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ColetaAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColetaAi.app/ColetaAi";
+			};
+			name = Release;
+		};
+		3FB0045C22CE2C06009FC23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ColetaAiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ColetaAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ColetaAi;
+			};
+			name = Debug;
+		};
+		3FB0045D22CE2C06009FC23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ColetaAiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackatruck.ColetaAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ColetaAi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB0042822CE2C06009FC23B /* Build configuration list for PBXProject "ColetaAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB0045322CE2C06009FC23B /* Debug */,
+				3FB0045422CE2C06009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB0045522CE2C06009FC23B /* Build configuration list for PBXNativeTarget "ColetaAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB0045622CE2C06009FC23B /* Debug */,
+				3FB0045722CE2C06009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB0045822CE2C06009FC23B /* Build configuration list for PBXNativeTarget "ColetaAiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB0045922CE2C06009FC23B /* Debug */,
+				3FB0045A22CE2C06009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB0045B22CE2C06009FC23B /* Build configuration list for PBXNativeTarget "ColetaAiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB0045C22CE2C06009FC23B /* Debug */,
+				3FB0045D22CE2C06009FC23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB0042522CE2C06009FC23B /* Project object */;
+}
