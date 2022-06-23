@@ -1,5 +1,5 @@
 # Hackatruck
-Hackatruck - 2019
+Hackatruck - 2019 -
 https://hackatruck.com.br/area/Home/O+Projeto/Apresenta%C3%A7%C3%A3o/
 
 O HackaTruck MakerSpace Serviços Cognitivos é um projeto de capacitação profissional de estudantes de Instituições de Ensino Superior de Tecnologia da Informação, em desenvolvimento iOS para aplicativos móveis com aplicação em Internet das Coisas (IoT), enfatizando a aplicação de conceitos e práticas de serviços cognitivos em nuvem. O projeto é patrocinado pela IBM Brasil e Flex, em colaboração com a Apple, e executado pelo Instituto de Pesquisas Eldorado.
